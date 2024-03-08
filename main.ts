@@ -107,6 +107,7 @@ let x = 0
 let mySprite2: Sprite = null
 let direction = ""
 let mySprite: Sprite = null
+game.splash("FLOWER HUNT")
 game.setGameOverScoringType(game.ScoringType.HighScore)
 scene.setBackgroundImage(assets.image`field`)
 mySprite = sprites.create(assets.image`bee`, SpriteKind.Player)
